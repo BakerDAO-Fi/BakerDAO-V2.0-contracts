@@ -281,7 +281,7 @@ contract Ownable {
      * NOTE: Renouncing ownership will leave the contract without an owner,
      * thereby removing any functionality that is only available to the owner.
      *
-     * NOTE: This function is not safe, as it doesnt check owner is calling it.
+     * NOTE: This function is not safe, as it doesn’t check owner is calling it.
      * Make sure you check it before calling it.
      */
     function _renounceOwnership() internal {
